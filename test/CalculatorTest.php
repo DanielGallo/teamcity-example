@@ -34,7 +34,7 @@ class CalculatorTest extends TestCase
         $this->assertEquals(2, $this->calculator->multiply(2,1));
     }
 
-    public function testFail(): void
+    public function testEquals(): void
     {
         $this->assertEquals(2, 2);
     }
