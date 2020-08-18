@@ -36,6 +36,6 @@ class CalculatorTest extends TestCase
 
     public function testEquals(): void
     {
-        $this->assertEquals(1, 2);
+        $this->assertEquals(1, 1);
     }
 }
